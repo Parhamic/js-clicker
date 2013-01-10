@@ -5,10 +5,8 @@
  * Copyright 2013 dafte.
  * ========================================================== */
 
-  $(function(){
-     $("a")(function(){
-        $("[href]")(function(){
-        window.location = $[href]
-        }
-      }
-  }
+ $(document).ready(function(){
+   $("a").click(function(){
+      window.location = $(this).attr("href");
+     });
+   });
