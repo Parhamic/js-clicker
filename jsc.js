@@ -6,7 +6,8 @@
  * ========================================================== */
 
   $(function(){
-     $("a")(function$("[href]"){
+     $("a")(function(){
+        $("[href]")(function(){
         window.location = $[href]
         }
       }
